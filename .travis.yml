@@ -18,7 +18,7 @@ install:
 
 script:
     - coverage run --rcfile=.coveragerc setup.py test
-    - python snow/main.py -osdi --forcemecab
+    - coverage run --rcfile=.coveragerc snow/main.py -osdi --forcemecab
 
 after_success:
     - coveralls

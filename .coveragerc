@@ -1,7 +1,6 @@
 # .coveragerc to control coverage.py
 [run]
 source =
-    common
     snow
 omit =
     # projects
