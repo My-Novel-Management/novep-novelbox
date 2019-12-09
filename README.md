@@ -1,12 +1,10 @@
-# novel-project-template
+# 「文芸箱」用のプロジェクト
 
-A template for develop novels
+ノベプラに置いている「文芸箱」用の企画
 
-## after must do
+## Contents
 
-_Need to add git submodule (storybuilder)_
-
-_Need to overwrite this readme_
+1. [雪の聲（こえ）](snow/README.md)
 
 ---
 (C)2019 N.T.Works

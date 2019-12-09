@@ -1,6 +1,8 @@
 # .coveragerc to control coverage.py
 [run]
-source = src
+source =
+    common
+    snow
 omit =
     # projects
     old_*
