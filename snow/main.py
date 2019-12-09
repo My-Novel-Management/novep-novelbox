@@ -7,8 +7,15 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.append('storybuilder')
 from storybuilder.builder.world import World
 from config import PERSONS, CHARAS, STAGES, DAYS, TIMES, ITEMS, WORDS
+from snow.demo.demo import ep_demo
+
 
 ## main
+def ch_main(w: World):
+    return w.chapter("main",
+            ep_demo(w),
+            )
+
 def world():
     """Create a world.
     """
@@ -21,6 +28,7 @@ def world():
 
 def story(w: World):
     return w.story("Sample",
+            ch_main(w),
             )
 
 def main(): # pragma: no cover
