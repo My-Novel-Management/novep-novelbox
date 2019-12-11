@@ -8,12 +8,14 @@ sys.path.append('storybuilder')
 from storybuilder.builder.world import World
 from config import PERSONS, CHARAS, STAGES, DAYS, TIMES, ITEMS, WORDS
 from snow.demo.demo import ep_demo
+from insnow import ep_hascomespring
 
 
 ## main
 def ch_main(w: World):
     return w.chapter("main",
-            ep_demo(w),
+            ep_demo(w).omit(),
+            ep_hascomespring(w),
             )
 
 def world():
@@ -27,7 +29,7 @@ def world():
     return w
 
 def story(w: World):
-    return w.story("Sample",
+    return w.story("雪の聲（こえ）",
             ch_main(w),
             )
 
