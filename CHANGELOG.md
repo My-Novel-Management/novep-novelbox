@@ -6,10 +6,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.0] - 2020-01-19
+### Added
+- Project: black hair
+### Updated
+- storybuilder: v0.4.5-7
+
+## [1.0.0] - 2020-01-19
+### Updated
+- storybuilder (v0.4.3-10)
+
 ## [0.0.1] - 2019-11-24
 ### Added
 - This CHANGELOG file to hopefully serve as an evolving example of a standardized open source project CHANGELOG.
 - README one line implemented.
 
-[Unreleased]: https://github.com/My-Novel-Management/novep-novelbox/compare/v0.0.1...HEAD
+[Unreleased]: https://github.com/My-Novel-Management/novep-novelbox/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/My-Novel-Management/novep-novelbox/releases/v1.1.0
+[1.0.0]: https://github.com/My-Novel-Management/novep-novelbox/releases/v1.0.0
 [0.0.1]: https://github.com/My-Novel-Management/novep-novelbox/releases/v0.0.1
